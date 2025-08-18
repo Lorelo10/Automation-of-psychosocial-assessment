@@ -1,0 +1,3620 @@
+{
+  "title": "Evaluación de factores de riesgo psicosocial",
+  "pages": [
+    {
+      "name": "Datos empleado",
+      "title": "Ficha de datos generales",
+      "elements": [
+        {
+          "type": "text",
+          "name": "ID",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Cedula de ciudadania"
+        },
+        {
+          "type": "text",
+          "name": "Nombre",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Nombre Completo"
+        },
+        {
+          "type": "tagbox",
+          "name": "Genero",
+          "title": "Sexo",
+          "choices": [
+            "Femenino",
+            "Masculino",
+            "Otro"
+          ],
+          "maxSelectedChoices": 1,
+          "minSelectedChoices": 1
+        },
+        {
+          "type": "tagbox",
+          "name": "Año nacimiento",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Año de nacimiento",
+          "isRequired": true,
+          "choices": [
+            "1955",
+            "1956",
+            "1957",
+            "1958",
+            "1959",
+            "1960",
+            "1961",
+            "1962",
+            "1963",
+            "1964",
+            "1965",
+            "1966",
+            "1967",
+            "1968",
+            "1969",
+            "1970",
+            "1971",
+            "1972",
+            "1973",
+            "1974",
+            "1975",
+            "1976",
+            "1977",
+            "1978",
+            "1979",
+            "1980",
+            "1981",
+            "1982",
+            "1983",
+            "1984",
+            "1985",
+            "1986",
+            "1987",
+            "1988",
+            "1989",
+            "1990",
+            "1991",
+            "1992",
+            "1993",
+            "1994",
+            "1995",
+            "1996",
+            "1997",
+            "1998",
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007"
+          ],
+          "otherText": "Otro",
+          "maxSelectedChoices": 1,
+          "minSelectedChoices": 1,
+          "closeOnSelect": true
+        },
+        {
+          "type": "tagbox",
+          "name": "Estado civil",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Estado civil",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Soltero",
+              "text": "Soltero (a)"
+            },
+            {
+              "value": "Casado",
+              "text": "Casado (a)"
+            },
+            {
+              "value": "Union libre",
+              "text": "Unión libre"
+            },
+            {
+              "value": "Separado",
+              "text": "Separado (a)"
+            },
+            {
+              "value": "Divorciado",
+              "text": "Divorciado (a)"
+            },
+            {
+              "value": "viudo",
+              "text": "Viudo (a)"
+            },
+            "Sacerdote / monja"
+          ],
+          "maxSelectedChoices": 1,
+          "minSelectedChoices": 1,
+          "closeOnSelect": true
+        },
+        {
+          "type": "tagbox",
+          "name": "Nivel educativo",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Último nivel de estudios que alcanzó.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "ninguno",
+              "text": "Ninguno"
+            },
+            {
+              "value": "primaria_incompleta",
+              "text": "Primaria incompleta"
+            },
+            {
+              "value": "primaria_completa",
+              "text": "Primaria completa"
+            },
+            {
+              "value": "bachillerato_incompleto",
+              "text": "Bachillerato incompleto"
+            },
+            {
+              "value": "bachillerato_completo",
+              "text": "Bachillerato completo"
+            },
+            {
+              "value": "tecnico_incompleto",
+              "text": "Técnico / tecnológico incompleto"
+            },
+            {
+              "value": "tecnico_completo",
+              "text": "Técnico / tecnológico completo"
+            },
+            {
+              "value": "profesional_incompleto",
+              "text": "Profesional incompleto"
+            },
+            {
+              "value": "profesional_completo",
+              "text": "Profesional completo"
+            },
+            {
+              "value": "militar_policia",
+              "text": "Carrera militar / policía"
+            },
+            {
+              "value": "postgrado_incompleto",
+              "text": "Post-grado incompleto"
+            },
+            {
+              "value": "postgrado_completo",
+              "text": "Post-grado completo"
+            }
+          ],
+          "maxSelectedChoices": 1,
+          "minSelectedChoices": 1,
+          "closeOnSelect": true
+        },
+        {
+          "type": "text",
+          "name": "Profesión",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Cuál es su ocupación o profesión?",
+          "isRequired": true
+        },
+        {
+          "type": "multipletext",
+          "name": "Lugar residencia",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Lugar de residencia actual?",
+          "isRequired": true,
+          "items": [
+            {
+              "name": "text1",
+              "title": "Ciudad / Municipio"
+            },
+            {
+              "name": "text2",
+              "title": "Departamento"
+            }
+          ]
+        },
+        {
+          "type": "tagbox",
+          "name": "Estrato",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Seleccione y marque el estrato de los servicios públicos de su vivienda.",
+          "isRequired": true,
+          "choices": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "Finca",
+            "No se"
+          ],
+          "noneText": "6",
+          "otherText": "Finca",
+          "maxSelectedChoices": 1,
+          "minSelectedChoices": 1,
+          "closeOnSelect": true
+        },
+        {
+          "type": "tagbox",
+          "name": "Tipo de vivienda",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Tipo de vivienda",
+          "isRequired": true,
+          "choices": [
+            "Propia",
+            "En arriendo",
+            "Familiar"
+          ],
+          "maxSelectedChoices": 1,
+          "minSelectedChoices": 1,
+          "closeOnSelect": true
+        },
+        {
+          "type": "tagbox",
+          "name": "Personas dependientes",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Numero de personas que dependen económicamente de usted (aunque vivan en otro lugar)",
+          "isRequired": true,
+          "choices": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "showOtherItem": true,
+          "otherText": "Otro",
+          "maxSelectedChoices": 1,
+          "minSelectedChoices": 1,
+          "closeOnSelect": true
+        },
+        {
+          "type": "multipletext",
+          "name": "Lugar de trabajo",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Lugar donde trabaja actualmente",
+          "isRequired": true,
+          "items": [
+            {
+              "name": "text1",
+              "title": "Ciudad / Municipio"
+            },
+            {
+              "name": "text2",
+              "title": "Departamento"
+            }
+          ]
+        },
+        {
+          "type": "tagbox",
+          "name": "Años en la empresa",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Hace cuantos años que trabaja en esta empresa?",
+          "choices": [
+            {
+              "value": "Meno de 1",
+              "text": "Menos de 1 año"
+            },
+            {
+              "value": "1",
+              "text": "1 año"
+            },
+            {
+              "value": "2",
+              "text": "2 años"
+            },
+            {
+              "value": "3",
+              "text": "3 años"
+            },
+            {
+              "value": "4",
+              "text": "4 años"
+            },
+            {
+              "value": "5",
+              "text": "5 años"
+            },
+            {
+              "value": "6",
+              "text": "6 años"
+            },
+            {
+              "value": "7",
+              "text": "7 años"
+            },
+            {
+              "value": "8",
+              "text": "8 años"
+            },
+            {
+              "value": "9",
+              "text": "9 años"
+            },
+            {
+              "value": "10",
+              "text": "10 años"
+            },
+            {
+              "value": "11",
+              "text": "11 años"
+            },
+            {
+              "value": "12",
+              "text": "12 años"
+            },
+            {
+              "value": "13",
+              "text": "13 años"
+            },
+            {
+              "value": "14",
+              "text": "14 años"
+            },
+            {
+              "value": "15",
+              "text": "15 años"
+            },
+            {
+              "value": "16",
+              "text": "16 años"
+            },
+            {
+              "value": "17",
+              "text": "17 años"
+            },
+            {
+              "value": "18",
+              "text": "18 años"
+            },
+            {
+              "value": "19",
+              "text": "19 años"
+            },
+            {
+              "value": "20",
+              "text": "20 años"
+            }
+          ],
+          "showOtherItem": true,
+          "otherText": "Otro",
+          "maxSelectedChoices": 1,
+          "minSelectedChoices": 1,
+          "closeOnSelect": true
+        },
+        {
+          "type": "text",
+          "name": "Cargo",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "¿Cuál es el nombre del cargo que ocupa en la empresa?",
+          "isRequired": true
+        },
+        {
+          "type": "tagbox",
+          "name": "Grupo cargo",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Seleccione el tipo de cargo que más se parece al que usted desempeña en la empresa.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Jefatura",
+              "text": "Jefatura - tiene personal a cargo"
+            },
+            {
+              "value": "Profesional",
+              "text": "Profesional, analista, técnico, tecnólogo"
+            },
+            {
+              "value": "Auxiliar",
+              "text": "Auxiliar, asistente administrativo, asistente técnico"
+            },
+            {
+              "value": "Operario",
+              "text": "Operario, operador, ayudante, servicios generales"
+            }
+          ],
+          "maxSelectedChoices": 1,
+          "minSelectedChoices": 1,
+          "closeOnSelect": true
+        },
+        {
+          "type": "tagbox",
+          "name": "Años en el cargo",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "¿Hace cuantos años que desempeña el cargo u oficio actual en la empresa?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Menos de 1",
+              "text": "Menos de 1 año"
+            },
+            {
+              "value": "1",
+              "text": "1 año"
+            },
+            {
+              "value": "2",
+              "text": "2 años"
+            },
+            {
+              "value": "3",
+              "text": "3 años"
+            },
+            {
+              "value": "4",
+              "text": "4 años"
+            },
+            {
+              "value": "5",
+              "text": "5 años"
+            },
+            {
+              "value": "6",
+              "text": "6 años"
+            },
+            {
+              "value": "7",
+              "text": "7 años"
+            },
+            {
+              "value": "8",
+              "text": "8 años"
+            },
+            {
+              "value": "9",
+              "text": "9 años"
+            },
+            {
+              "value": "10",
+              "text": "10 años"
+            },
+            {
+              "value": "11",
+              "text": "11 años"
+            },
+            {
+              "value": "12",
+              "text": "12 años"
+            },
+            {
+              "value": "13",
+              "text": "13 años"
+            },
+            {
+              "value": "14",
+              "text": "14 años"
+            },
+            {
+              "value": "15",
+              "text": "15 años"
+            },
+            {
+              "value": "16",
+              "text": "16 años"
+            },
+            {
+              "value": "17",
+              "text": "17 años"
+            },
+            {
+              "value": "18",
+              "text": "18 años"
+            },
+            {
+              "value": "19",
+              "text": "19 años"
+            },
+            {
+              "value": "20",
+              "text": "20 años"
+            }
+          ],
+          "showOtherItem": true,
+          "otherText": "Otro",
+          "maxSelectedChoices": 1,
+          "minSelectedChoices": 1,
+          "closeOnSelect": true
+        },
+        {
+          "type": "text",
+          "name": "Área de trabajo",
+          "title": "Escriba el nombre del departamento, área o sección de la empresa en la que trabaja.\n"
+        },
+        {
+          "type": "tagbox",
+          "name": "Tipo contrato",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Seleccione el tipo de contrato que tiene actualmente.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Temporal < 1 año",
+              "text": "Temporal de menos de 1 año"
+            },
+            {
+              "value": "Temporal > 1 año",
+              "text": "Temporal de 1 año o mas"
+            },
+            {
+              "value": "Indefinido",
+              "text": "Termino indefinido"
+            },
+            {
+              "value": "Cooperaado",
+              "text": "Cooperado (Cooperativa)"
+            },
+            "Prestación de servicios",
+            "No se"
+          ],
+          "maxSelectedChoices": 1,
+          "minSelectedChoices": 1,
+          "closeOnSelect": true
+        },
+        {
+          "type": "tagbox",
+          "name": "Horas trabajo diario",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Indique cuantas HORAS DIARIAS de trabajo están establecidas habitualmente por la empresa para su cargo.",
+          "isRequired": true,
+          "choices": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "showOtherItem": true,
+          "otherText": "Otro",
+          "maxSelectedChoices": 1,
+          "minSelectedChoices": 1,
+          "closeOnSelect": true
+        },
+        {
+          "type": "tagbox",
+          "name": "Tipo salario",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Seleccione y marque el tipo de salario que recibe",
+          "choices": [
+            {
+              "value": "Fijo",
+              "text": "Fijo (diario, semanal, quincenal o mensual)"
+            },
+            {
+              "value": "Fijo y variable",
+              "text": "Una parte fija y otra parte variable"
+            },
+            {
+              "value": "Variable",
+              "text": "Todo variable (a destajo, por producción, por comisión"
+            }
+          ],
+          "maxSelectedChoices": 1,
+          "minSelectedChoices": 1,
+          "closeOnSelect": true
+        }
+      ]
+    },
+    {
+      "name": "Intralaboral",
+      "title": "Cuestionario de factores de riesgo psicosocial intralaboral",
+      "elements": [
+        {
+          "type": "html",
+          "name": "introText",
+          "html": "<p>Este cuestionario de factores psicosociales busca conocer su opinión sobre algunos aspectos de su trabajo.</p><p>Le agradecemos que usted se sirva contestar a las siguientes preguntas de forma absolutamente sincera. Las respuestas que usted dé al cuestionario no son buenas, ni malas, lo importante es que reflejen su manera de pensar sobre su trabajo.</p><p>Al responder, por favor lea cuidadosamente cada pregunta, luego piense cómo es su trabajo y responda a todas las preguntas. En cada una de ellas marque una sola respuesta haciendo clic en la casilla que mejor represente su situación. </p><p> Tenga presente que el cuestionario NO lo evalúa a usted como trabajador, sino busca conocer como es el trabajo que le han asignado. </p><p> Sus respuestas serán manejadas de forma absolutamente confidencial. </p><p> Si tiene duda respecto a alguna pregunta, solicite mayor explicación a la persona que le indico hacer el cuestionario.</p><p> El cuestionario no tiene limite de tiempo; sin embargo, aproximadamente usted requerirá 1 hora para contestar todas las preguntas.</p>"
+        },
+        {
+          "type": "html",
+          "name": "Primer grupo de preguntas",
+          "html": "<p>Las siguientes preguntas están relacionadas con las condiciones ambientales del(los) sitio(s) o lugar(es) donde habitualmente realiza su trabajo. </p>"
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.1",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "El ruido en el lugar donde trabajo es molesto",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 4,
+              "text": "Siempre"
+            },
+            {
+              "value": 3,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 1,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 0,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.2",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "En el lugar donde trabajo hace mucho frio",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 4,
+              "text": "Siempre"
+            },
+            {
+              "value": 3,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 1,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 0,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.3",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "En el lugar donde trabajo hace mucho calor",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 4,
+              "text": "Siempre"
+            },
+            {
+              "value": 3,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 1,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 0,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.4",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "El aire en el lugar donde trabajo es fresco y agradable",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.5",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "La luz del sitio donde trabajo es agradable",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.6",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "El espacio donde trabajo es cómodo",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.7",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "En mi trabajo me preocupa estar expuesto a sustancias químicas que afecten mi salud",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 4,
+              "text": "Siempre"
+            },
+            {
+              "value": 3,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 1,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 0,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.8",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Mi trabajo me exige hacer mucho esfuerzo físico",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 4,
+              "text": "Siempre"
+            },
+            {
+              "value": 3,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 1,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 0,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.9",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Los equipos o herramientas con los que trabajo son cómodos",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.10",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "En mi trabajo me preocupa estar expuesto a microbios, animales o plantas que afecten mi salud",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 4,
+              "text": "Siempre"
+            },
+            {
+              "value": 3,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 1,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 0,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.11",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Me preocupa accidentarme en mi trabajo",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 4,
+              "text": "Siempre"
+            },
+            {
+              "value": 3,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 1,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 0,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.12",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "El lugar donde trabajo es limpio y ordenado",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "html",
+          "name": "Text1",
+          "html": "<p> Para responder a las siguientes preguntas piense en la cantidad de trabajo que usted tiene a cargo.</p>"
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.13",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Por la cantidad de trabajo que tengo debo quedarme tiempo adicional",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 4,
+              "text": "Siempre"
+            },
+            {
+              "value": 3,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 1,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 0,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.14",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Me alcanza el tiempo de trabajo para tener al día mis deberes",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.15",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Por la cantidad de trabajo que tengo debo trabajar sin parar",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 4,
+              "text": "Siempre"
+            },
+            {
+              "value": 3,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 1,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 0,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "html",
+          "name": "Text2",
+          "html": "<p> Las siguientes preguntas están relacionadas con el esfuerzo mental que le exige su trabajo.</p>"
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.16",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Mi trabajo me exige hacer mucho esfuerzo mental",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 4,
+              "text": "Siempre"
+            },
+            {
+              "value": 3,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 1,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 0,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.17",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Mi trabajo me exige estar muy concentrado",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 4,
+              "text": "Siempre"
+            },
+            {
+              "value": 3,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 1,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 0,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.18",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Mi trabajo me exige memorizar mucha información",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 4,
+              "text": "Siempre"
+            },
+            {
+              "value": 3,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 1,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 0,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.19",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "En mi trabajo tengo que hacer cálculos matemáticos ",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 4,
+              "text": "Siempre"
+            },
+            {
+              "value": 3,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 1,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 0,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.20",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Mi trabajo requiere que me fije en pequeños detalles",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 4,
+              "text": "Siempre"
+            },
+            {
+              "value": 3,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 1,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 0,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "html",
+          "name": "Text3",
+          "html": "<p> Las siguientes preguntas están relacionadas con la jornada de trabajo.</p>"
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.21",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Trabajo en horario de noche",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 4,
+              "text": "Siempre"
+            },
+            {
+              "value": 3,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 1,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 0,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.22",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "En mi trabajo es posible tomar pausas para descansar",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.23",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Mi trabajo me exige trabajar en días de descanso, festivos o fines de semana",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 4,
+              "text": "Siempre"
+            },
+            {
+              "value": 3,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 1,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 0,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.24",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "En mi trabajo puedo tomar fines de semana o días de descanso al mes",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.25",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Cuando estoy en casa sigo pensando en el trabajo",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 4,
+              "text": "Siempre"
+            },
+            {
+              "value": 3,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 1,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 0,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.26",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Discuto con mi familia o amigos por causa de mi trabajo",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 4,
+              "text": "Siempre"
+            },
+            {
+              "value": 3,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 1,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 0,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.27",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Debo atender asuntos de trabajo cuando estoy en casa",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 4,
+              "text": "Siempre"
+            },
+            {
+              "value": 3,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 1,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 0,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.28",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Por mi trabajo el tiempo que paso con mi familia y amigos es muy poco",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 4,
+              "text": "Siempre"
+            },
+            {
+              "value": 3,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 1,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 0,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "html",
+          "name": "Text4",
+          "html": "<p> Las siguientes preguntas están relacionadas con las decisiones y el control que le permite su trabajo</p>"
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.29",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "En mi trabajo puedo hacer cosas nuevas",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.30",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Mi trabajo me permite desarrollar mis habilidades",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.31",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Mi trabajo me permite aplicar mis conocimientos",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.32",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Mi trabajo me permite aprender cosas nuevas",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.33",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Puedo tomar pausas cuando las necesito",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.34",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Puedo decidir cuanto trabajo hago en el dia",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.35",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Puedo decidir la velocidad  a la que trabajo",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.36",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Puedo cambiar el orden de las actividades en mi trabajo",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.37",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Puedo parar un momento mi trabajo para atender algún asunto personal",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "html",
+          "name": "Text5",
+          "html": "<p> Las siguientes preguntas están relacionadas con cualquier tipo de cambio que ocurra en su trabajo</p>"
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.38",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Me explican claramente los cambios que ocurren en mi trabajo",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.39",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Puedo dar sugerencias sobre los cambios que ocurren en mi trabajo",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.40",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Cuando se presentan cambios en mi trabajo se tienen en cuenta mis ideas y sugerencias",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "html",
+          "name": "Text6",
+          "html": "<p> Las siguientes preguntas están relacionadas con la informacion que la empresa le ha dado sobre su trabajo</p>"
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.41",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Me informan con claridad cuales son mis funciones",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.42",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Me informan cuáles son las decisiones que puedo tomar en mi trabajo",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.43",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Me explican claramente los resultados que debo lograr en mi trabajo",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.44",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Me explican claramente  los objetivos de mi trabajo",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.45",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Me explican claramente con quien puedo resolver los asuntos de trabajo",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "html",
+          "name": "Text7",
+          "html": "<p> Las siguientes preguntas están relacionadas con la formacion y capacitacion que la empresa le facilita para hacer su trabajo</p>"
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.46",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "La empresa me permite asistir a capacitaciones relacionadas con mi trabajo",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.47",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Recibo capacitación útil para hacer mi trabajo",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.48",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Recibo capacitación que me ayuda a hacer mejor mi trabajo",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "html",
+          "name": "Text8",
+          "html": "<p> Las siguientes preguntas están relacionadas con el o los jefes con los quien tenga más contacto</p>"
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.49",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Mi jefe ayuda a organizar mejor el trabajo",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.50",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Mi jefe tiene en cuenta mis puntos de vista y opiniones",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.51",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Mi jefe me anima para hacer mejor mi trabajo",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.52",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Mi jefe distribuye las tareas de forma que me facilita el trabajo",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.53",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Mi jefe me comunica a tiempo la información relacionada con el trabajo",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.54",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "La orientación que me da mi jefe me ayuda a hacer mejor el trabajo",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.55",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Mi jefe me ayuda a progresar en el trabajo",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.56",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Mi jefe me ayuda a sentirme bien en el trabajo",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.57",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Mi jefe me ayuda a solucionar los problemas que se presentan en el trabajo",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.58",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Mi jefe me trata con respeto",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.59",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Siento que puedo confiar en mi jefe",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.60",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Mi jefe me escucha cuando tengo problemas de trabajo",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.61",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Mi jefe me brinda su apoyo cuando lo necesito",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "html",
+          "name": "Text9",
+          "html": "<p> Las siguientes preguntas indagan sobre las relaciones con otras personas y el apoyo entre las personas de su trabajo</p>"
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.62",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Me agrada el ambiente de mi grupo de trabajo",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.63",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "En mi grupo de trabajo me tratan de forma respetuosa",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.64",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Siento que puedo confiar en mis compañeros de trabajo",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.65",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Me siento a gusto con mis compañeros de trabajo",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.66",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "En mi grupo de trabajo algunas personas me maltratan",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 4,
+              "text": "Siempre"
+            },
+            {
+              "value": 3,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 1,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 0,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.67",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Entre compañeros solucionamos los problemas de forma respetuosa",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.68",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Mi grupo de trabajo es muy unido",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.69",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Cuando tenemos que realizar trabajo de grupo los compañeros colaboran",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.70",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Es fácil poner de acuerdo al grupo para hacer el trabajo",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.71",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Mis compañeros de trabajo me ayudan cuando tengo dificultades",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.72",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "En mi trabajo las personas nos apoyamos unos a otros",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.73",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Algunos compañeros de trabajo me escuchan cuando tengo problemas",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "html",
+          "name": "Text10",
+          "html": "<p> Las siguientes preguntas están relacionadas con la información que usted recibe sobre su rendimiento en el trabajo.</p>"
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.74",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Me informan sobre lo que hago bien en mi trabajo",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.75",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Me informan sobre lo que debo mejorar en mi trabajo",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.76",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "La información que recibo sobre mi rendimiento en el trabajo es clara",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.77",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "La forma como evalúan mi trabajo en la empresa me ayuda a mejorar",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.78",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Me informan a tiempo sobre lo que debo mejorar en el trabajo",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "html",
+          "name": "Text11",
+          "html": "<p> Las siguientes preguntas están relacionadas con la satisfacción, reconocimiento y la seguridad que le ofrece su trabajo. </p>"
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.79",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "En la empresa me pagan a tiempo mi salario",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.80",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "El pago que recibo es el que ofreció la empresa",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.81",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "El pago que recibo es el que merezco por el trabajo que realizo",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.82",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "En mi trabajo tengo posibilidades de progresar",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.83",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Las personas que hacen bien el trabajo pueden progresar en la empresa",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.84",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "La empresa se preocupa por el bienestar de los trabajadores",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.85",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Mi trabajo en la empresa es estable",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.86",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "El trabajo que hago me hace sentir bien",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.87",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Siento orgullo de trabajar en esta empresa",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.88",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "Hablo bien de la empresa con otras personas",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "html",
+          "name": "Text12",
+          "html": "<p> Las siguientes preguntas están relacionadas con la atención a clientes y usuaros. </p>"
+        },
+        {
+          "type": "boolean",
+          "name": "Condicional",
+          "useDisplayValuesInDynamicTexts": false,
+          "title": "En mi trabajo debo brindar atención a clientes o usuarios",
+          "labelTrue": "Si"
+        },
+        {
+          "type": "html",
+          "name": "Text13",
+          "html": "<p> Si su respuesta fue SI por favor responda las siguientes preguntas. Si su respuesta fue NO por favor continue con la siguiente encuesta. </p>"
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.89",
+          "useDisplayValuesInDynamicTexts": false,
+          "visibleIf": "{Condicional} = true",
+          "title": "Atiendo clientes o usuarios muy enojados",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 4,
+              "text": "Siempre"
+            },
+            {
+              "value": 3,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 1,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 0,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.90",
+          "useDisplayValuesInDynamicTexts": false,
+          "visibleIf": "{Condicional} = true",
+          "title": "Atiendo clientes o usuarios muy preocupados",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 4,
+              "text": "Siempre"
+            },
+            {
+              "value": 3,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 1,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 0,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.91",
+          "useDisplayValuesInDynamicTexts": false,
+          "visibleIf": "{Condicional} = true",
+          "title": "Atiendo clientes o usuarios muy tristes",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 4,
+              "text": "Siempre"
+            },
+            {
+              "value": 3,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 1,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 0,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.92",
+          "useDisplayValuesInDynamicTexts": false,
+          "visibleIf": "{Condicional} = true",
+          "title": "Mi trabajo me exige atender personas muy enfermas",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 4,
+              "text": "Siempre"
+            },
+            {
+              "value": 3,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 1,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 0,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.93",
+          "useDisplayValuesInDynamicTexts": false,
+          "visibleIf": "{Condicional} = true",
+          "title": "Mi trabajo me exige atender personas muy necesitadas de ayuda",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 4,
+              "text": "Siempre"
+            },
+            {
+              "value": 3,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 1,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 0,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.94",
+          "useDisplayValuesInDynamicTexts": false,
+          "visibleIf": "{Condicional} = true",
+          "title": "Atiendo clientes o usuarios que me maltratan",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 4,
+              "text": "Siempre"
+            },
+            {
+              "value": 3,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 1,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 0,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.95",
+          "useDisplayValuesInDynamicTexts": false,
+          "visibleIf": "{Condicional} = true",
+          "title": "Mi trabajo me exige atender situaciones de violencia",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 4,
+              "text": "Siempre"
+            },
+            {
+              "value": 3,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 1,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 0,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.96",
+          "useDisplayValuesInDynamicTexts": false,
+          "visibleIf": "{Condicional} = true",
+          "title": "Mi trabajo me exige atender situaciones muy tristes y dolorosas",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 4,
+              "text": "Siempre"
+            },
+            {
+              "value": 3,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 1,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 0,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        },
+        {
+          "type": "radiogroup",
+          "name": "1.97",
+          "useDisplayValuesInDynamicTexts": false,
+          "visibleIf": "{Condicional} = true",
+          "title": "Puedo expresar tristeza o enojo frente a las personas que atiendo",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": 0,
+              "text": "Siempre"
+            },
+            {
+              "value": 1,
+              "text": "Casi siempre"
+            },
+            {
+              "value": 2,
+              "text": "Algunas veces"
+            },
+            {
+              "value": 3,
+              "text": "Casi nunca"
+            },
+            {
+              "value": 4,
+              "text": "Nunca"
+            }
+          ],
+          "colCount": 5
+        }
+      ]
+    }
+  ],
+  "showQuestionNumbers": "on",
+  "showProgressBar": true,
+  "pagePrevText": "Anterior",
+  "pageNextText": "Siguiente",
+  "completeText": "Completo",
+  "questionTitlePattern": "numTitle",
+  "headerView": "advanced"
+}
